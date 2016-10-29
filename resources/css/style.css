@@ -262,7 +262,6 @@ h2:after {
 }
 
 .meal-photo img {
-    opacity: 0.7;
     width: 100%;
     height: auto;
     transform: scale(1.15);
@@ -270,6 +269,6 @@ h2:after {
 }
 
 .meal-photo img:hover {
-    opacity: 1;
+    opacity: 0.5;
     transform: scale(1.05);
 }

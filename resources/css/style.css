@@ -29,6 +29,18 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+.clearfix {
+    zoom: 1
+}
+
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 
 /* ---------------------*/
 
@@ -243,7 +255,6 @@ h2:after {
 
 .meal-section {
     padding: 0;
-    margin-bottom: 660px;
 }
 
 .meal-showcase {
@@ -287,6 +298,10 @@ h2:after {
 
 /* ---------------------*/
 
+.step-section {
+    background-color: #ededed;
+}
+
 .step-section:first-child {
     text-align: right;
     padding-right: 3%;
@@ -297,12 +312,38 @@ h2:after {
 }
 
 .app-screen {
-    width: 40%;
+    width: 35%;
     margin-left: 140px;
 }
 
 .row h2 {
-    width: 100%;
-    padding-right: 60px;
     margin-bottom: 65px;
+    margin-right: 60px;
+}
+
+.work-step {
+    margin-bottom: 60px;
+}
+
+.work-step:last-of-type {
+    margin-bottom: 90px;
+}
+
+.work-step div {
+    color: #e67e22;
+    border: 1px #e67e22 solid;
+    display: inline-block;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 7px;
+    float: left;
+    margin-right: 25px;
+    font-size: 1.5em;
+}
+
+.btn-app img {
+    height: 50px;
+    margin-right: 20px;
 }

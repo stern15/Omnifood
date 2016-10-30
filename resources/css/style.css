@@ -259,6 +259,7 @@ h2:after {
     margin: 0;
     overflow: hidden;
     background-color: #000;
+    position: relative;
 }
 
 .meal-photo img {
@@ -271,4 +272,10 @@ h2:after {
 .meal-photo img:hover {
     opacity: 0.5;
     transform: scale(1.05);
+}
+
+.meal-text {
+    position: absolute;
+    top: 125px;
+    text-align: center;
 }

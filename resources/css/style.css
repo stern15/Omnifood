@@ -77,6 +77,7 @@ h2 {
 h3 {
     font-size: 1.1em;
     margin: 20px auto;
+    text-align: center;
 }
 
 
@@ -137,7 +138,7 @@ h3 {
     display: block;
     color: #e67e22;
     margin-bottom: 10px;
-    padding-left: 28%;
+    padding-left: 36%;
 }
 
 
@@ -242,6 +243,7 @@ h2:after {
 
 .meal-section {
     padding: 0;
+    margin-bottom: 660px;
 }
 
 .meal-showcase {
@@ -252,30 +254,55 @@ h2:after {
 .meal-showcase li {
     float: left;
     width: 25%;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
 }
 
 .meal-photo {
     width: 100%;
     margin: 0;
-    overflow: hidden;
-    background-color: #000;
-    position: relative;
+    color: transparent;
+    transition: transform 0.5s, opacity 0.5s, color 0.5s, filter 0.5s;
 }
 
 .meal-photo img {
     width: 100%;
     height: auto;
     transform: scale(1.15);
-    transition: transform 0.5s, opacity 0.5s;
 }
 
-.meal-photo img:hover {
-    opacity: 0.5;
+.meal-photo:hover {
+    opacity: 0.4;
     transform: scale(1.05);
+    color: white;
 }
 
-.meal-text {
-    position: absolute;
-    top: 125px;
-    text-align: center;
+
+/* ---------------------*/
+
+
+/*STEP SECTION*/
+
+
+/* ---------------------*/
+
+.step-section:first-child {
+    text-align: right;
+    padding-right: 3%;
+}
+
+.step-section:last-child {
+    padding-left: 3%;
+}
+
+.app-screen {
+    width: 40%;
+    margin-left: 140px;
+}
+
+.row h2 {
+    width: 100%;
+    padding-right: 60px;
+    margin-bottom: 65px;
 }

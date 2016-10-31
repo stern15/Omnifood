@@ -153,6 +153,33 @@ h3 {
     padding-left: 36%;
 }
 
+.icon-small {
+    color: #e67e22;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 120%;
+    vertical-align: text-bottom;
+    margin-right: 10px;
+}
+
+
+/*------icons--------*/
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #e67e22;
+    padding-bottom: 3px;
+}
+
+a:hover,
+a:active {
+    color: inherit;
+    border-bottom: 1px solid #555;
+}
+
 
 /* ---------------------*/
 
@@ -343,7 +370,42 @@ h2:after {
     font-size: 1.5em;
 }
 
+.btn-app:hover,
+.btn-app:active {
+    border: 0;
+}
+
 .btn-app img {
     height: 50px;
     margin-right: 20px;
+}
+
+
+/* ---------------------*/
+
+
+/*CITIES SECTION*/
+
+
+/* ---------------------*/
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.city-feature {
+    margin-bottom: 10px;
+}
+
+.city-feature a:link,
+.city-feature a:visited {
+    border-bottom: 1px solid #e67e22;
+    transition: border-bottom 0.5s, color 0.5s;
+}
+
+.city-feature a:hover,
+.city-feature a:active {
+    border-bottom: 1px solid transparent;
 }

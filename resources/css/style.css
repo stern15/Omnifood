@@ -148,6 +148,68 @@ input[type=submit]:active {
 }
 
 
+/*------checkbox--------*/
+
+.news-checkbox {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+input[type=checkbox] {
+    margin-right: 15px;
+}
+
+.checkbox-text {
+    cursor: auto;
+}
+
+input[type=checkbox] {
+    visibility: hidden;
+}
+
+input[type=checkbox] + label {
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    top: 1px;
+    left: 1px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+input[type=checkbox] + label:before {
+    content: "";
+    position: absolute;
+    border: 2px solid white;
+    height: 5px;
+    width: 12px;
+    border-bottom-left-radius: 3px;
+    border-top: none;
+    border-right: none;
+    top: 9px;
+    left: 7px;
+    transform: rotate(-45deg);
+    opacity: 0;
+}
+
+input[type=checkbox]:checked + label:before {
+    opacity: 1;
+}
+
+input[type=checkbox]:checked + label {
+    background-color: #e67e22;
+}
+
+.news-checkbox:checked + label {
+    background-color: #e67e22;
+}
+
+
 /*------icons--------*/
 
 .icon-big {
@@ -557,8 +619,4 @@ textarea:focus {
     outline: none;
     border: 1px solid #e67e22;
     box-shadow: 0 0 10px #e67e22;
-}
-
-input[type=checkbox] {
-    margin-right: 15px;
 }

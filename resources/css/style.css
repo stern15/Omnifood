@@ -112,6 +112,7 @@ input[type=submit] {
     font-weight: 300;
     text-decoration: none;
     transition: background-color 0.5s, color 0.5s, border 0.5s;
+    cursor: pointer;
 }
 
 .btn-full:link,
@@ -551,10 +552,12 @@ textarea {
 
 input[type=text]:focus,
 input[type=email]:focus,
+select:focus,
 textarea:focus {
-    outline: none !important;
+    outline: none;
     border: 1px solid #e67e22;
-    box-shadow: 0 0 10px #e67e22;}
+    box-shadow: 0 0 10px #e67e22;
+}
 
 input[type=checkbox] {
     margin-right: 15px;

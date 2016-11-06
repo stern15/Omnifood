@@ -296,12 +296,15 @@
                     </label>
                 </div>
                 <div class="col span-2-of-3">
-                    <select name="find-us" id="find-us">
-                        <option value="friends" selected>Friends</option>
-                        <option value="search-engine">Search-engine</option>
-                        <option value="ad">Advertisement</option>
-                        <option value="other">Other</option>
-                    </select>
+                    <div class="select-opt">
+                        <select name="find-us" id="find-us">
+                            <option value="default" selected>Select one</option>
+                            <option value="friends">Friends</option>
+                            <option value="search-engine">Search-engine</option>
+                            <option value="ad">Advertisement</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -336,6 +339,53 @@
             </div>
         </form>
     </section>
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li>
+                        <a href="#">About us</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Press</a>
+                    </li>
+                    <li>
+                        <a href="#">iOS app</a>
+                    </li>
+                    <li>
+                        <a href="#">Android app</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-media">
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p>Copyright &copy; 2013
+                <script>
+                    new Date().getFullYear() > 2010 && document.write("-" + new Date().getFullYear());
+                </script> by Omnifood. All right reserved.
+            </p>
+        </div>
+    </footer>
 </body>
 
 </html>

@@ -624,3 +624,87 @@ textarea:focus {
     border: 1px solid #e67e22;
     box-shadow: 0 0 10px #e67e22;
 }
+
+
+/* ---------------------*/
+
+
+/*FOOTER SECTION*/
+
+
+/* ---------------------*/
+
+footer {
+    background-color: #333;
+    padding: 30px 60px;
+}
+
+.footer-nav,
+.social-media {
+    list-style: none;
+}
+
+.footer-nav {
+    float: left;
+}
+
+.social-media {
+    float: right;
+}
+
+.footer-nav li,
+.social-media li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-media li:last-child {
+    margin: 0;
+}
+
+.social-media li a:link,
+.footer-nav li a:link,
+.social-media li a:visited,
+.footer-nav li a:visited {
+    color: #888;
+    transition: color 0.5s;
+    font-size: 1.1em;
+}
+
+.social-media li a:hover,
+.footer-nav li a:hover,
+.social-media li a:active,
+.footer-nav li a:active {
+    border: 0;
+    color: #e67e22;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 50px;
+}
+
+.fcbk,
+.twtt,
+.g,
+.insta {
+    transition: color 0.5s;
+}
+
+.fcbk:hover {
+    color: #3b5998;
+}
+
+.g:hover {
+    color: #dd4b39;
+}
+
+.twtt:hover {
+    color: #1da1f2;
+}
+
+.insta:hover {
+    color: #fd1d1d;
+}

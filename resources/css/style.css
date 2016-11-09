@@ -598,6 +598,13 @@ blockquote:before {
 
 /* ---------------------*/
 
+input,
+select,
+label,
+textarea {
+    font-size: 1.1em;
+}
+
 .contact-form {
     width: 60%;
     margin: 0 auto;

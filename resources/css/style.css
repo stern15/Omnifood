@@ -352,6 +352,7 @@ h2:after {
 
 .meal-section {
     padding: 0;
+    position: relative;
 }
 
 .meal-showcase {
@@ -383,7 +384,16 @@ h2:after {
 .meal-photo:hover {
     opacity: 0.4;
     transform: scale(1.05);
+}
+
+.meal-section ul li span {
+    top: 140px;
+    left: 35px;    position: absolute;
+}
+
+.meal-section ul li:hover span {
     color: white;
+    z-index: 1;
 }
 
 

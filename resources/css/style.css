@@ -20,13 +20,15 @@ orange color:#e67e22
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     color: #555;
     background-color: white;
     font-size: 20px;
     font-weight: 300;
     font-family: 'Lato', 'Arial', sans-serif;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clearfix {
@@ -388,7 +390,8 @@ h2:after {
 
 .meal-section ul li span {
     top: 140px;
-    left: 35px;    position: absolute;
+    left: 35px;
+    position: absolute;
 }
 
 .meal-section ul li:hover span {
